@@ -46,3 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strength: 5
   direction: {x: 0, y: 0, z: 1}
+  windSound: {fileID: 8300000, guid: baebe3bf32c197f4ba953875a8ebe887, type: 3}

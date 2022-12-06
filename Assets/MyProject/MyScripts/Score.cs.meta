@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 637264532deec234e829158abf4b1c77
+guid: bb8e6f574656b9043865bde4fbb7750b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - collectingGold: {fileID: 8300000, guid: 32b4549ce910b1640ad79aef0c854d76, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

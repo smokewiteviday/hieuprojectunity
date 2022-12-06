@@ -18,6 +18,6 @@ public class PlayerScript : MonoBehaviour
     }
     private void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 20), "Score: " + points);
+        GUI.Label(new Rect(10, 10, 10000, 2000), "Score: " + points);
     }
 }

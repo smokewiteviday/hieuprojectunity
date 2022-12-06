@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class GoldScript : MonoBehaviour
 {
+    private GameObject objectHoldingTheScoreScript;
+    private Score scoreScript;
+    public AudioClip collectingGold;
     // Start is called before the first frame update
     void Start()
     {
-        
+        objectHoldingTheScoreScript = GameObject.Find("_ScoreManager");
+        scoreScript = objectHoldingTheScoreScript.GetComponent<Score>();
+       
     }
 
     // Update is called once per frame
@@ -19,7 +24,8 @@ public class GoldScript : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            other.GetComponent<PlayerScript>().points++;
+            scoreScript.UpdateScore(10);
+            AudioSource.PlayClipAtPoint(collectingGold, this.transform.position);
             Destroy(gameObject);
         }
     }
