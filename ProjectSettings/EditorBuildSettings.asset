@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyProject/MyScenes/TurorialLevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/MyProject/MyScenes/Level1.unity
+    guid: 5b18f8e314f05c3458688d785e7dbe76
+  - enabled: 1
+    path: Assets/MyProject/MyScenes/Level2.unity
+    guid: dcbf90a0c92e0714aad3119651cf18b4
+  - enabled: 1
+    path: Assets/MyProject/MyScenes/Level3.unity
+    guid: 9b67009cc66b6784a9d1e0640df3a207
+  - enabled: 1
+    path: Assets/MyProject/MyScenes/Level4.unity
+    guid: e848bb76b117d4744aeebea76cb13f09
+  - enabled: 1
+    path: Assets/MyProject/MyScenes/Level5.unity
+    guid: b9dff62da1285ba4f81227b9db56f13e
   m_configObjects: {}

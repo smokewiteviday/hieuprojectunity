@@ -15,7 +15,7 @@ public class BounceBlock : MonoBehaviour
         }
         GameObject bouncer = col.gameObject;
         Rigidbody rb = bouncer.GetComponent<Rigidbody>();
-        rb.AddForce(Vector3.right * bounce);
+        rb.AddForce(Vector3.back * bounce);
         
 
     }
